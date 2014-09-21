@@ -1,0 +1,32 @@
+{
+  "name": "audio-clock",
+  "version": "0.1.0",
+  "description": "keep time for audio apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meandavejustice/audio-clock.git"
+  },
+  "keywords": [
+    "audio",
+    "time",
+    "worker",
+    "sequence",
+    "bpm",
+    "tempo",
+    "webaudio",
+    "browser"
+  ],
+  "author": "meandave",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meandavejustice/audio-clock/issues"
+  },
+  "homepage": "https://github.com/meandavejustice/audio-clock",
+  "dependencies": {
+    "webworkify": "^1.0.0"
+  }
+}
