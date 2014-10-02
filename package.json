@@ -1,6 +1,6 @@
 {
   "name": "audio-clock",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "keep time for audio apps",
   "main": "index.js",
   "scripts": {
