@@ -2,7 +2,7 @@ var work = require('webworkify');
 var w = work(require('./werk.js'));
 
 var MINUTE_IN_MS = 60000;
-var currentBPM = {bpm: 120, ms: 500};
+var currentBPM = {bpm: 120, ms: 500 / 4};
 
 function onTick(cb) {
   w.addEventListener('message', function(ev) {
@@ -21,12 +21,12 @@ function setCurrent(bpm, ms) {
   if (bpm) {
     currentBPM = {
       bpm: bpm,
-      ms: MINUTE_IN_MS/bpm
+      ms: (MINUTE_IN_MS/bpm) / 4
     };
   } else {
     currentBPM = {
       bpm: MINUTE_IN_MS/ms,
-      ms: ms
+      ms: ms / 4
     };
   }
 }
